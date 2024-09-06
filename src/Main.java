@@ -21,5 +21,8 @@ public class Main {
             firstDigit = number;
             number /= 10;
         }
+
+        return firstDigit + lastDigit;
+
     }
 }
